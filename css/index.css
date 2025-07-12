@@ -1,0 +1,64 @@
+@import "./main.css";
+
+/* personal info */
+.personal__info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.person__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 1px var(--text-color);
+}
+.info__title {
+  font-size: 3rem;
+  color: var(--text-color);
+  margin: 1.5rem;
+}
+.info__desk {
+  font-family: var(--font-primary);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+/* worklist */
+.work__collection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.work__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: var(--heading-color);
+  max-width: 50%;
+  min-width: 400px;
+}
+.work__title,
+.work__link {
+  color: var(--text-white);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.work__icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  display: inline-block;
+  vertical-align: middle;
+  color: var(--neutral-0);
+}
+.work__icon:hover {
+  opacity: 70%;
+}

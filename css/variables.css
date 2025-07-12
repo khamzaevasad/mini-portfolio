@@ -1,0 +1,37 @@
+:root {
+  /* Neutral */
+  --primary-color: #ffffff;
+  --secondary-color: #f2f2f7;
+  --tertiary-color: #e4e4ef;
+  --text-color: #12131a;
+  --heading-color: #12131a;
+
+  /* Gray / Border */
+  --light-gray: #e4e4ef;
+  --gray: #f2f2f7;
+
+  /* Text */
+  --text-white: #ffffff;
+  --text-black: #12131a;
+
+  /* Font family */
+  --font-secondary: "Space Mono", monospace;
+  --font-primary: "DM Sans";
+}
+
+body.dark__mode {
+  /* Neutral - Dark Mode */
+  --primary-color: #12131a;
+  --secondary-color: #1e1f26;
+  --tertiary-color: #2a2b32;
+  --text-color: #ffffff;
+  --heading-color: #ffffff;
+
+  /* Gray / Border - Dark Mode */
+  --light-gray: #2a2b32;
+  --gray: #1e1f26;
+
+  /* Text - Dark Mode */
+  --text-white: #12131a;
+  --text-black: #ffffff;
+}
