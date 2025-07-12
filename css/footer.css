@@ -10,9 +10,11 @@
   font-family: var(--font-secondary);
   color: var(--text-color);
   font-size: 1.3rem;
+  text-align: center;
 }
 
 .git__link {
+  font-size: 1.3rem;
   font-weight: 500;
   color: var(--text-color);
   transition: all 0.05s;
