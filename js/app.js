@@ -22,6 +22,7 @@ function updateUi(portfolio) {
 document.addEventListener("DOMContentLoaded", () => {
   fetch("http://localhost:3000/portfolio")
     .then((data) => {
+      ﬁ;
       return data.json();
     })
     .then((portfolio) => {
