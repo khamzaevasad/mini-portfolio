@@ -20,13 +20,12 @@ function updateUi(portfolio) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("http://localhost:3000/portfolio")
+  fetch("https://json-api.uz/api/project/portfolio-Asadbek/portfolio")
     .then((data) => {
-      ﬁ;
       return data.json();
     })
     .then((portfolio) => {
-      updateUi(portfolio);
+      updateUi(portfolio.data);
     })
     .catch((error) => {
       console.log(error);
